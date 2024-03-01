@@ -90,15 +90,15 @@ body {
 .hero__title {
 	font-weight: 700;
 	color: var(--white);
-	font-size: clamp(1.5rem, 3vw, 3rem);
-	margin-bottom: 1.25rem;
+	font-size: clamp(2rem, 3vw, 3rem);
+	margin-bottom: clamp(.5rem, 3vw, 1.25rem);
 	text-wrap: balance;
 	display: grid;
 	gap: 1.25rem;
 	span {
 		font-weight: 400;
 		margin-bottom: 1.25rem;
-		font-size: 2.25rem;
+		font-size: clamp(2rem, 3vw, 3rem);
 	}
 }
 
